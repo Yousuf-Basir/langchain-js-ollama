@@ -1,0 +1,164 @@
+{
+  "clinicians": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "specialty": "Cardiology",
+      "location": "New York",
+      "phone": "+1 (123) 456-7890",
+      "email": "john.smith@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "specialty": "Pediatrics",
+      "location": "Los Angeles",
+      "phone": "+1 (234) 567-8901",
+      "email": "emily.johnson@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Brown",
+      "specialty": "Dermatology",
+      "location": "Chicago",
+      "phone": "+1 (345) 678-9012",
+      "email": "michael.brown@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sarah Martinez",
+      "specialty": "Orthopedics",
+      "location": "Houston",
+      "phone": "+1 (456) 789-0123",
+      "email": "sarah.martinez@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Dr. David Wilson",
+      "specialty": "Neurology",
+      "location": "Philadelphia",
+      "phone": "+1 (567) 890-1234",
+      "email": "david.wilson@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Jennifer Lee",
+      "specialty": "Oncology",
+      "location": "Phoenix",
+      "phone": "+1 (678) 901-2345",
+      "email": "jennifer.lee@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Christopher Taylor",
+      "specialty": "Psychiatry",
+      "location": "San Antonio",
+      "phone": "+1 (789) 012-3456",
+      "email": "christopher.taylor@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Jessica Rodriguez",
+      "specialty": "Gynecology",
+      "location": "San Diego",
+      "phone": "+1 (890) 123-4567",
+      "email": "jessica.rodriguez@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Matthew Garcia",
+      "specialty": "Urology",
+      "location": "Dallas",
+      "phone": "+1 (901) 234-5678",
+      "email": "matthew.garcia@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Elizabeth Lopez",
+      "specialty": "Endocrinology",
+      "location": "San Jose",
+      "phone": "+1 (012) 345-6789",
+      "email": "elizabeth.lopez@example.com"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Andrew Young",
+      "specialty": "Pulmonology",
+      "location": "Austin",
+      "phone": "+1 (123) 456-7890",
+      "email": "andrew.young@example.com"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Kimberly Martinez",
+      "specialty": "Rheumatology",
+      "location": "Jacksonville",
+      "phone": "+1 (234) 567-8901",
+      "email": "kimberly.martinez@example.com"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Daniel Thompson",
+      "specialty": "Ophthalmology",
+      "location": "Indianapolis",
+      "phone": "+1 (345) 678-9012",
+      "email": "daniel.thompson@example.com"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Amanda Lewis",
+      "specialty": "Hematology",
+      "location": "San Francisco",
+      "phone": "+1 (456) 789-0123",
+      "email": "amanda.lewis@example.com"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Timothy Clark",
+      "specialty": "Allergy and Immunology",
+      "location": "Columbus",
+      "phone": "+1 (567) 890-1234",
+      "email": "timothy.clark@example.com"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Samantha Wright",
+      "specialty": "Nephrology",
+      "location": "Charlotte",
+      "phone": "+1 (678) 901-2345",
+      "email": "samantha.wright@example.com"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Ryan Walker",
+      "specialty": "Gastroenterology",
+      "location": "Fort Worth",
+      "phone": "+1 (789) 012-3456",
+      "email": "ryan.walker@example.com"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Olivia Hall",
+      "specialty": "Otolaryngology",
+      "location": "Detroit",
+      "phone": "+1 (890) 123-4567",
+      "email": "olivia.hall@example.com"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Nathan Harris",
+      "specialty": "Family Medicine",
+      "location": "Memphis",
+      "phone": "+1 (901) 234-5678",
+      "email": "nathan.harris@example.com"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Sophia Turner",
+      "specialty": "Geriatrics",
+      "location": "Seattle",
+      "phone": "+1 (012) 345-6789",
+      "email": "sophia.turner@example.com"
+    }
+  ]
+}
