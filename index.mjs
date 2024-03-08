@@ -4,12 +4,12 @@ import { JSONLoader } from "langchain/document_loaders/fs/json";
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 
 const llm = new Ollama({
-    baseUrl: "http://89.116.167.82:11434",
+    baseUrl: "http://localhost:11434",
     model: "tinyllama", 
 });
 
 const embedding = new OllamaEmbeddings({
-    baseUrl: "http://89.116.167.82:11434",
+    baseUrl: "http://localhost:11434",
     model: "nomic-embed-text",
 })
 console.log('Ollama embeddings loaded', embedding.baseUrl);
