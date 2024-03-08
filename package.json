@@ -11,6 +11,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "chromadb": "^1.8.1",
+    "d3-dsv": "^2.0.0",
+    "json-2-csv": "^5.5.0",
     "langchain": "^0.1.25"
   }
 }

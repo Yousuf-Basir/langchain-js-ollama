@@ -2,6 +2,7 @@ import { Ollama } from "@langchain/community/llms/ollama";
 import { OllamaEmbeddings } from "@langchain/community/embeddings/ollama";
 import { JSONLoader } from "langchain/document_loaders/fs/json";
 import { Chroma } from "@langchain/community/vectorstores/chroma";
+import { CSVLoader } from "langchain/document_loaders/fs/csv";
 
 const llm = new Ollama({
     baseUrl: "http://localhost:11434",
@@ -15,9 +16,15 @@ const embedding = new OllamaEmbeddings({
 console.log('Ollama embeddings loaded', embedding.baseUrl);
 
 // load json file and create a document
-const loader = new JSONLoader("./assets/data.json");
+// const loader = new JSONLoader("./assets/data.json", [
+//     "/name", "/specialty", "/location", "/phone", "/email"
+// ]);
+// const docs = await loader.load();
+// console.log('JSON loaded');
+
+// load csv file and create a document
+const loader = new CSVLoader('./assets/data.csv');
 const docs = await loader.load();
-console.log('JSON loaded');
 
 // store the document in the vector store
 const vectorStore = await Chroma.fromDocuments(docs, embedding, {
@@ -30,21 +37,15 @@ console.log('Document stored in vector store');
 const vectorSearch = await vectorStore.similaritySearch("what is the phone number of Nathan?", 1);
 console.log(vectorSearch);
 
-// const stream = await ollama.stream(`
-//     This is database query output:
-//     location: "New York"
-//     date: "2021-01-01"
-//     accidents: 100
-//     deaths: 10
+const stream = await llm.stream(`
+    You will create a complete answer based on given question and its answer. 
 
-//     The question is:
-//     How many accidents were there in New York on 2021-01-01?
+    Question: What is the phone number of Nathan?
+    Answer: +3880238331
+`);
 
-    
-// `);
-
-// const chunks = []
-// for await (const chunk of stream) {
-//     chunks.push(chunk);
-//     process.stdout.write(chunk);
-// }
+const chunks = []
+for await (const chunk of stream) {
+    chunks.push(chunk);
+    process.stdout.write(chunk);
+}

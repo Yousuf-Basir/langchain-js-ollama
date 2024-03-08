@@ -1,0 +1,21 @@
+clinicians/id,clinicians/name,clinicians/specialty,clinicians/location,clinicians/phone,clinicians/email
+1,Dr. John Smith,Cardiology,New York,+1 (123) 456-7890,john.smith@example.com
+2,Dr. Emily Johnson,Pediatrics,Los Angeles,+1 (234) 567-8901,emily.johnson@example.com
+3,Dr. Michael Brown,Dermatology,Chicago,+1 (345) 678-9012,michael.brown@example.com
+4,Dr. Sarah Martinez,Orthopedics,Houston,+1 (456) 789-0123,sarah.martinez@example.com
+5,Dr. David Wilson,Neurology,Philadelphia,+1 (567) 890-1234,david.wilson@example.com
+6,Dr. Jennifer Lee,Oncology,Phoenix,+1 (678) 901-2345,jennifer.lee@example.com
+7,Dr. Christopher Taylor,Psychiatry,San Antonio,+1 (789) 012-3456,christopher.taylor@example.com
+8,Dr. Jessica Rodriguez,Gynecology,San Diego,+1 (890) 123-4567,jessica.rodriguez@example.com
+9,Dr. Matthew Garcia,Urology,Dallas,+1 (901) 234-5678,matthew.garcia@example.com
+10,Dr. Elizabeth Lopez,Endocrinology,San Jose,+1 (012) 345-6789,elizabeth.lopez@example.com
+11,Dr. Andrew Young,Pulmonology,Austin,+1 (123) 456-7890,andrew.young@example.com
+12,Dr. Kimberly Martinez,Rheumatology,Jacksonville,+1 (234) 567-8901,kimberly.martinez@example.com
+13,Dr. Daniel Thompson,Ophthalmology,Indianapolis,+1 (345) 678-9012,daniel.thompson@example.com
+14,Dr. Amanda Lewis,Hematology,San Francisco,+1 (456) 789-0123,amanda.lewis@example.com
+15,Dr. Timothy Clark,Allergy and Immunology,Columbus,+1 (567) 890-1234,timothy.clark@example.com
+16,Dr. Samantha Wright,Nephrology,Charlotte,+1 (678) 901-2345,samantha.wright@example.com
+17,Dr. Ryan Walker,Gastroenterology,Fort Worth,+1 (789) 012-3456,ryan.walker@example.com
+18,Dr. Olivia Hall,Otolaryngology,Detroit,+1 (890) 123-4567,olivia.hall@example.com
+19,Dr. Nathan Harris,Family Medicine,Memphis,+1 (901) 234-5678,nathan.harris@example.com
+20,Dr. Sophia Turner,Geriatrics,Seattle,+1 (012) 345-6789,sophia.turner@example.com
